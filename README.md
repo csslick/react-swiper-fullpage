@@ -1,3 +1,4 @@
 # react-swiper-fullpage
-Created with CodeSandbox. 
+Created with CodeSandbox.  
+
 demo: https://csb-verks8.netlify.app/
