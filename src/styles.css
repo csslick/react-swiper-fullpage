@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+
+section h1 {
+  font-size: 60px;
+  text-transform: capitalize;
+}
+
+.controls {
+  background: #000;
+  position: fixed;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 1px solid red;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper-slide {
+  /* background: pink; */
+}
+
+nav {
+  position: absolute;
+  background: #000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  text-align: center;
+  padding: 1rem 0;
+  opacity: 0.7;
+}
+
+nav a {
+  padding: 0 1rem;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.fadeRight {
+  color: #fff;
+  transform: translateX(-1000px);
+  opacity: 0;
+}
+
+.swiper-slide-active .fadeRight {
+  transform: translateX(0);
+  transition: 1s;
+  opacity: 1;
+}
+
+.fadeLeft {
+  color: #fff;
+  transform: translateX(1000px);
+  opacity: 0;
+}
+
+.swiper-slide-active .fadeLeft {
+  transform: translateX(0);
+  transition: 1s;
+  opacity: 1;
+}
